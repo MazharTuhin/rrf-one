@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RRF Exam</title>
+    <!-- Slick Slider CSS CDN -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+    <!-- jQuery CDN (required for Slick) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Slick Slider JS CDN -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <link href="src/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <section id="main" class="bg-pink relative">
+        <!-- SHAPE -->
+        <div class="left-1/2 -translate-x-1/2 lg:translate-x-0 bg-red h-36 w-36 rounded-full absolute lg:left-[478px] -top-24 lg:-top-14 z-0"></div>
+        <header class="pt-10 mb-8 z-10">
+            <div class="container mx-auto px-4 relative">
+                <div class="flex items-center justify-between z-10">
+                    <div>
+                        <img src="src/images/Logo.png" alt="">
+                    </div>
+                    <div class="flex lg:hidden">
+                        <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+                          <span class="sr-only">Open main menu</span>
+                          <svg class="size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                          </svg>
+                        </button>
+                    </div>
+                    <ul class="hidden lg:flex items-center">
+                        <li class="px-4"><a href="#about" class="text-dark font-bold text-lg hover:text-dark-gray">About</a></li>
+                        <li class="px-4"><a href="#service" class="text-dark font-bold text-lg hover:text-dark-gray">Services</a></li>
+                        <li class="px-4"><a href="#portfolio" class="text-dark font-bold text-lg hover:text-dark-gray">Portfolio</a></li>
+                        <li class="px-4"><a href="#blog" class="text-dark font-bold text-lg hover:text-dark-gray">Blog</a></li>
+                    </ul>
+                    <a href="#" class="hidden lg:inline-block bg-dark text-white py-3 px-6 font-bold">Let's Talk</a>
+                </div>
+            </div>
+        </header>
+        <div id="hero">
+            <div class="container mx-auto px-4">
+                <div class="flex flex-col lg:flex-row lg:-mx-6">
+                    <div class="lg:w-1/2 xl:w-2/5 lg:px-6 text-center lg:text-left">
+                        <div class="pt-6 xl:pt-16 pb-8 xl:pb-20">
+                            <span class="text-xl block mb-2 lg:mb-4">UX Designer</span>
+                            <h1 class="text-5xl lg:text-5xl font-bold leading-normal mb-4">Hi There, I'm <br><span class="text-red">Jonh Smith</span></h1>
+                            <p class="mb-10">Welcome to my portfolio of captivating digital experiences. Explore my work and let's create something extraordinary together.</p>
+                            <div class="flex space-x-5 justify-center lg:justify-start">
+                                <a href="#" class="inline-block bg-dark text-white py-3 px-14 font-bold border border-dark">Hire Me</a>
+                                <a href="#" class="inline-block bg-transparent text-dark py-3 px-14 font-bold border border-dark">Portfolio</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:w-1/2 xl:w-3/5 lg:px-6 flex items-end justify-end">
+                        <div>
+                            <img src="src/images/hero.png" alt="hero image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- ABOUT SECTION -->
+    <section id="about" class="bg-dark py-12 lg:pt-16 lg:pb-20 text-white text-center relative overflow-hidden">
+        <!-- SHAPE -->
+        <div class="w-[234px] h-[234px] left-1/2 -translate-x-1/2 absolute -bottom-48 lg:-bottom-44 bg-red rounded-full"></div>
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="section-title">About Me</h2>
+                <p class=" mb-8">I'm John Smith, a UI/UX designer dedicated to crafting intuitive and visually stunning digital experiences. With a passion for user-centric design, I transform ideas into functional and beautiful interfaces. Let's collaborate and shape the future of design together.</p>
+            </div>
+            <div class="flex items-center justify-between">
+                <div class="flex justify-center w-1/3">
+                    <div>
+                        <h2 class="text-6xl text-pink font-bold pb-2">502</h2>
+                        <p class="text-lg font-bold">Projects Done</p>
+                    </div>
+                </div>
+                <div class="flex justify-center w-1/3">
+                    <div>
+                        <h2 class="text-6xl text-pink font-bold pb-2">10+</h2>
+                        <p class="text-lg font-bold">Years of Experience</p>
+                    </div>
+                </div>
+                <div class="flex justify-center w-1/3">
+                    <div>
+                        <h2 class="text-6xl text-pink font-bold pb-2">273+</h2>
+                        <p class="text-lg font-bold">Clients Served</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section id="service" class="py-12 lg:py-16">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto mb-8">
+                <h2 class="section-title text-center">Services</h2>
+                <p class="text-center">Explore my design services, from user interface and experience to prototyping and testing. Let's craft exceptional digital experiences together.</p>  
+            </div>
+            <div class="flex -mx-4 flex-wrap lg:flex-nowrap">
+                <div class="md:w-1/2 lg:w-1/4 px-4">
+                    <div class="p-4">
+                        <div class="mb-6">
+                            <svg width="48" height="54" viewBox="0 0 48 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M35.2767 26.4354C36.1863 26.6459 37.1685 26.8264 38.2284 26.9851C37.1685 27.1438 36.1863 27.3243 35.2767 27.5348C32.0531 28.2808 29.6276 29.4277 27.8516 31.4172C26.0879 33.3929 25.0727 36.0803 24.4093 39.6773C24.2526 40.527 24.1143 41.4343 23.9906 42.4032C23.8666 41.4342 23.7281 40.5268 23.5712 39.6771C22.9068 36.08 21.891 33.3927 20.1269 31.4171C18.3505 29.4276 15.9248 28.2808 12.7011 27.5348C11.7915 27.3243 10.8093 27.1438 9.74938 26.9851C10.8093 26.8264 11.7915 26.6459 12.7011 26.4354C15.9248 25.6894 18.3505 24.5426 20.1269 22.5532C21.891 20.5775 22.9068 17.8902 23.5712 14.2931C23.7281 13.4434 23.8666 12.536 23.9906 11.567C24.1143 12.5359 24.2526 13.4433 24.4093 14.2929C25.0727 17.89 26.0879 20.5774 27.8516 22.5531C29.6276 24.5426 32.0531 25.6894 35.2767 26.4354Z" stroke="#FC3314" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-bold mb-6">Design</h3>
+                        <p class="text-sm">I specialize in web development and design, creating visually appealing, user-friendly digital experiences.</p>                    
+                    </div>
+                </div>
+
+                <div class="md:w-1/2 lg:w-1/4 px-4">
+                    <div class="p-4">
+                        <div class="mb-6">
+                            <svg width="88" height="54" viewBox="0 0 88 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="22" cy="27" r="21" stroke="#FC3314" stroke-width="2"/>
+                                <circle cx="44" cy="27" r="21" stroke="#FC3314" stroke-width="2"/>
+                                <circle cx="66" cy="27" r="21" stroke="#FC3314" stroke-width="2"/>
+                            </svg>                                
+                        </div>
+                        <h3 class="text-lg font-bold mb-6">Branding</h3>
+                        <p class="text-sm">I'm a branding expert, crafting unique visual identities that tell your story and resonate with your audience.</p>                    
+                    </div>
+                </div>
+
+                <div class="md:w-1/2 lg:w-1/4 px-4">
+                    <div class="p-4">
+                        <div class="mb-6">
+                            <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M31.5004 11.2504H45.0004" stroke="#FC3314" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M31.5004 18.0004H38.2504" stroke="#FC3314" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M47.2504 25.8754C47.2504 37.6879 37.6879 47.2504 25.8754 47.2504C14.0629 47.2504 4.50043 37.6879 4.50043 25.8754C4.50043 14.0629 14.0629 4.50037 25.8754 4.50037" stroke="#FC3314" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M49.5004 49.5004L45.0004 45.0004" stroke="#FC3314" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                                
+                        </div>
+                        <h3 class="text-lg font-bold mb-6">UX Research</h3>
+                        <p class="text-sm">I specialize in user experience research, collaborating on web development, and ensuring user-friendly digital products.</p>                    
+                    </div>
+                </div>
+
+                <div class="md:w-1/2 lg:w-1/4 px-4">
+                    <div class="p-4">
+                        <div class="mb-6">
+                            <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M25.2222 42.1111H50.1111" stroke="#FC3314" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M25.2222 27.8889H50.1111" stroke="#FC3314" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M25.2222 13.6666H50.1111" stroke="#FC3314" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9 14L11 16L17 10" stroke="#FC3314" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9 28L11 30L17 24" stroke="#FC3314" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9 42L11 44L17 38" stroke="#FC3314" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                                
+                        </div>
+                        <h3 class="text-lg font-bold mb-6">Usability Testing</h3>
+                        <p class="text-sm">I perform usability testing and optimize designs websites based on real-user feedback for seamless interactions.</p>                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO SECTION -->
+    <section id="portfolio">
+        <div class="bg-pink">
+            <div class="container px-4 max-w-4xl mx-auto text-center pt-12 pb-36">
+                <h2 class="section-title mb-6 opacity-85">My Portfolio</h2>
+                <p>Explore my design services, from user interface and experience to prototyping and testing. Let's craft exceptional digital experiences together.</p>
+            </div>
+        </div>
+        <div class="-mt-[100px]">
+            <div class="container mx-auto px-4">
+                <div class="flex md:-mx-4 lg:-mx-8 justify-center flex-wrap">
+                    <div class="md:w-1/2 lg:w-1/3 md:px-4 lg:px-4 mb-8 lg:mb-16">
+                        <div>
+                            <div class="mb-4 lg:mb-8">
+                                <img class="w-full" src="src/images/portfolio-1.png" alt="Portfolio Image">
+                            </div>
+                            <div class="flex justify-between items-end">
+                                <div>
+                                    <h3 class="text-xl font-bold mb-4">Educational Platform</h3>
+                                    <p class="text-sm">Web Design / Usability Testing</p>
+                                </div>
+                                <div>
+                                    <a class="w-9 h-9 bg-red flex items-center justify-center rounded-full" href="#">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.4253 1.49615L1.24219 14.6793" stroke="white" stroke-width="1.41248" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M14.4253 11.1669V1.49615H4.75454" stroke="white" stroke-width="1.41248" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="md:w-1/2 lg:w-1/3 md:px-4 lg:px-4 mb-8 lg:mb-16">
+                        <div>
+                            <div class="mb-4 lg:mb-8">
+                                <img class="w-full" src="src/images/portfolio-2.png" alt="Portfolio Image">
+                            </div>
+                            <div class="flex justify-between items-end">
+                                <div>
+                                    <h3 class="text-xl font-bold mb-4">Travel App Design</h3>
+                                    <p class="text-sm">UX Research / App Design </p>
+                                </div>
+                                <div>
+                                    <a class="w-9 h-9 bg-red flex items-center justify-center rounded-full" href="#">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.4253 1.49615L1.24219 14.6793" stroke="white" stroke-width="1.41248" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M14.4253 11.1669V1.49615H4.75454" stroke="white" stroke-width="1.41248" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="md:w-1/2 lg:w-1/3 md:px-4 lg:px-4 mb-8 lg:mb-16">
+                        <div>
+                            <div class="mb-4 lg:mb-8">
+                                <img class="w-full" src="src/images/portfolio-3.png" alt="Portfolio Image">
+                            </div>
+                            <div class="flex justify-between items-end">
+                                <div>
+                                    <h3 class="text-xl font-bold mb-4">Personal Page</h3>
+                                    <p class="text-sm">Web Design</p>
+                                </div>
+                                <div>
+                                    <a class="w-9 h-9 bg-red flex items-center justify-center rounded-full" href="#">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.4253 1.49615L1.24219 14.6793" stroke="white" stroke-width="1.41248" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M14.4253 11.1669V1.49615H4.75454" stroke="white" stroke-width="1.41248" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="md:w-1/2 lg:w-1/3 md:px-4 lg:px-4 mb-8 lg:mb-16">
+                        <div>
+                            <div class="mb-4 lg:mb-8">
+                                <img class="w-full" src="src/images/portfolio-4.png" alt="Portfolio Image">
+                            </div>
+                            <div class="flex justify-between items-end">
+                                <div>
+                                    <h3 class="text-xl font-bold mb-4">Furniture Mobile App</h3>
+                                    <p class="text-sm">App Design</p>
+                                </div>
+                                <div>
+                                    <a class="w-9 h-9 bg-red flex items-center justify-center rounded-full" href="#">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.4253 1.49615L1.24219 14.6793" stroke="white" stroke-width="1.41248" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M14.4253 11.1669V1.49615H4.75454" stroke="white" stroke-width="1.41248" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="md:w-1/2 lg:w-1/3 md:px-4 lg:px-4 mb-8 lg:mb-16">
+                        <div>
+                            <div class="mb-4 lg:mb-8">
+                                <img class="w-full" src="src/images/portfolio-5.png" alt="Portfolio Image">
+                            </div>
+                            <div class="flex justify-between items-end flex-grow">
+                                <div>
+                                    <h3 class="text-xl font-bold mb-4">Coffee House Landing Page</h3>
+                                    <p class="text-sm">UX Research / Web Design</p>
+                                </div>
+                                <div>
+                                    <a class="w-9 h-9 bg-red flex items-center justify-center rounded-full" href="#">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.4253 1.49615L1.24219 14.6793" stroke="white" stroke-width="1.41248" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M14.4253 11.1669V1.49615H4.75454" stroke="white" stroke-width="1.41248" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="md:w-1/2 lg:w-1/3 md:px-4 lg:px-4 mb-8 lg:mb-16">
+                        <div>
+                            <div class="mb-4 lg:mb-8">
+                                <img class="w-full" src="src/images/portfolio-6.png" alt="Portfolio Image">
+                            </div>
+                            <div class="flex justify-between items-end">
+                                <div>
+                                    <h3 class="text-xl font-bold mb-4">Home Services Page</h3>
+                                    <p class="text-sm">Web Design / Marketing</p>
+                                </div>
+                                <div>
+                                    <a class="w-9 h-9 bg-red flex items-center justify-center rounded-full" href="#">
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.4253 1.49615L1.24219 14.6793" stroke="white" stroke-width="1.41248" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path d="M14.4253 11.1669V1.49615H4.75454" stroke="white" stroke-width="1.41248" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="py-12 lg:py-[90px]">
+        <div class="container mx-auto px-16">
+            <div class="max-w-4xl mx-auto px-4 mb-12 lg:mb-16">
+                <h2 class="section-title text-center">Core Design Skills</h2>
+                <p class="text-center">I excel in essential design skills, creating visually stunning and functional digital experiences. From UI design to UX research, my passion is to craft effective and memorable digital solutions.</p>
+            </div>
+            <div class="flex md:-mx-14 flex-col md:flex-row">
+                <div class="md:px-14 md:w-1/2 mb-2 md:mb-0">
+                    <div class="space-y-2">
+                        <div>
+                            <div class="font-bold mb-2">Interaction Design</div>
+                            <div class="flex space-x-4 items-center">
+                                <div class="w-full bg-medium-gray rounded-full h-[5px]">
+                                    <div class="bg-dark h-[5px] rounded-full" style="width: 60%"></div>
+                                </div>
+                                <span>60%</span>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="font-bold mb-2">Usability Testing</div>
+                            <div class="flex space-x-4 items-center">
+                                <div class="w-full bg-medium-gray rounded-full h-[5px]">
+                                    <div class="bg-dark h-[5px] rounded-full" style="width: 70%"></div>
+                                </div>
+                                <span>70%</span>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="font-bold mb-2">User Research</div>
+                            <div class="flex space-x-4 items-center">
+                                <div class="w-full bg-medium-gray rounded-full h-[5px]">
+                                    <div class="bg-dark h-[5px] rounded-full" style="width: 45%"></div>
+                                </div>
+                                <span>45%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="md:px-14 md:w-1/2">
+                    <div class="space-y-2">
+                        <div>
+                            <div class="font-bold mb-2">Figma</div>
+                            <div class="flex space-x-4 items-center">
+                                <div class="w-full bg-medium-gray rounded-full h-[5px]">
+                                    <div class="bg-dark h-[5px] rounded-full" style="width: 95%"></div>
+                                </div>
+                                <span>95%</span>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="font-bold mb-2">Prototyping</div>
+                            <div class="flex space-x-4 items-center">
+                                <div class="w-full bg-medium-gray rounded-full h-[5px]">
+                                    <div class="bg-dark h-[5px] rounded-full" style="width: 80%"></div>
+                                </div>
+                                <span>80%</span>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="font-bold mb-2">Information Architecture</div>
+                            <div class="flex space-x-4 items-center">
+                                <div class="w-full bg-medium-gray rounded-full h-[5px]">
+                                    <div class="bg-dark h-[5px] rounded-full" style="width: 50%"></div>
+                                </div>
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTEMONIALS SECTION -->
+    <section id="testimonials" class="py-12 lg:pt-24 lg:pb-16 bg-pink relative overflow-hidden">
+        <!-- SHAPE -->
+        <div class="w-[122px] h-[122px] left-1/2 -translate-x-1/2 absolute -top-20 lg:-top-[61px] bg-red rounded-full"></div>
+        <div class="container mx-auto px-4">
+            <!-- Slider Container -->
+            <h2 class="section-title mb-8 text-center">Tesimonials</h2>
+            <div class="testimonial-slider">
+                <!-- Slide 1 -->
+                <div class="px-2">
+                    <div class="text-center max-w-sm md:max-w-2xl lg:max-w-3xl mx-auto">
+                        <p class="mb-8">Sara Jones's designs are both visually captivating and highly effective. She transformed our website, enhancing user engagement and conversions. Her attention to detail and creative approach are top-notch. Highly recommended!</p>
+                        <div class="flex items-center justify-center">
+                            <div class="w-[70px] h-[70px] rounded-full overflow-hidden mr-4">
+                                <img src="src/images/testimonial.png" alt="" class="w-full object-cover">
+                            </div>
+                            <div>
+                                <span class="font-bold">John Smith </span>
+                                / CEO of XYZ Company
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Slide 2 -->
+                <div class="px-2">
+                    <div class="text-center max-w-3xl mx-auto">
+                        <p class="mb-8">Sara Jones's designs are both visually captivating and highly effective. She transformed our website, enhancing user engagement and conversions. Her attention to detail and creative approach are top-notch. Highly recommended!</p>
+                        <div class="flex items-center justify-center">
+                            <div class="w-[70px] h-[70px] rounded-full overflow-hidden mr-4">
+                                <img src="src/images/testimonial.png" alt="" class="w-full object-cover">
+                            </div>
+                            <div>
+                                <span class="font-bold">John Smith </span>
+                                / CEO of XYZ Company
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Slide 3 -->
+                <div class="px-2">
+                    <div class="text-center max-w-3xl mx-auto">
+                        <p class="mb-8">Sara Jones's designs are both visually captivating and highly effective. She transformed our website, enhancing user engagement and conversions. Her attention to detail and creative approach are top-notch. Highly recommended!</p>
+                        <div class="flex items-center justify-center">
+                            <div class="w-[70px] h-[70px] rounded-full overflow-hidden mr-4">
+                                <img src="src/images/testimonial.png" alt="" class="w-full object-cover">
+                            </div>
+                            <div>
+                                <span class="font-bold">John Smith </span>
+                                / CEO of XYZ Company
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOG SECTION -->
+    <section id="blog" class="py-12 lg:py-20 xl:py-24 bg-gray">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center mb-12">
+                <h2 class="section-title mb-4">Design Insigts and Inspiration</h2>
+                <p>Discover industry insights, expert tips, and design inspiration. Stay updated with the latest trends in web design and user experience.</p>
+            </div>
+            <div class="flex flex-col lg:flex-row lg:-mx-8 xl:-mx-12 flex-grow">
+                <div class="lg:w-1/3 lg:px-8 xl:px-12 flex flex-grow mb-8 lg:mb-0">
+                    <div class="bg-white flex flex-col h-full"> <!-- Added flex-col and h-full here -->
+                        <div class="mb-4"> <!-- Added flex-grow to image container -->
+                            <img src="src/images/blog-1.png" alt="blog image" class="w-full h-full object-cover"> <!-- Added h-full and object-cover -->
+                        </div>
+                        <div class="p-4 flex flex-col flex-grow"> <!-- Added flex and flex-col -->
+                            <div class="mb-4 flex-grow"> <!-- Added flex-grow to content -->
+                                <p class="text-xs mb-2">August 15, 2023 / UX</p>
+                                <h4 class="font-bold mb-2">Typography Tips for Design Success</h4>
+                                <p>Dive into the world of web typography and discover how to choose, pair, and optimize fonts for compelling and readable digital designs.</p>
+                            </div>
+                            <a href="#" class="font-bold flex items-center">Read More 
+                                <svg class="ml-2" width="16.000000" height="16.000000" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <path id="Vector" d="M5.93 13.27L10.28 8.93C10.79 8.41 10.79 7.57 10.28 7.06L5.93 2.71" stroke="#1F1F1F" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+                                    <g opacity="0.000000"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="lg:w-1/3 lg:px-8 xl:px-12 flex flex-grow mb-8 lg:mb-0">
+                    <div class="bg-white flex flex-col h-full w-full"> <!-- Added flex-col and h-full here -->
+                        <div class="mb-4"> <!-- Added flex-grow to image container -->
+                            <img src="src/images/blog-2.png" alt="blog image" class="w-full h-full object-cover"> <!-- Added h-full and object-cover -->
+                        </div>
+                        <div class="p-4 flex flex-col flex-grow"> <!-- Added flex and flex-col -->
+                            <div class="mb-4 flex-grow"> <!-- Added flex-grow to content -->
+                                <p class="text-xs mb-2">August 15, 2023 / UX</p>
+                                <h4 class="font-bold mb-2">Color Psychology in UX</h4>
+                                <p>Explore how color choices impact user emotions and decision-making in UX design.</p>
+                            </div>
+                            <a href="#" class="font-bold flex items-center">Read More 
+                                <svg class="ml-2" width="16.000000" height="16.000000" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <path id="Vector" d="M5.93 13.27L10.28 8.93C10.79 8.41 10.79 7.57 10.28 7.06L5.93 2.71" stroke="#1F1F1F" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+                                    <g opacity="0.000000"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="lg:w-1/3 lg:px-8 xl:px-12 flex flex-grow mb-8 lg:mb-0">
+                    <div class="bg-white flex flex-col h-full"> <!-- Added flex-col and h-full here -->
+                        <div class="mb-4"> <!-- Added flex-grow to image container -->
+                            <img src="src/images/blog-3.png" alt="blog image" class="w-full h-full object-cover"> <!-- Added h-full and object-cover -->
+                        </div>
+                        <div class="p-4 flex flex-col flex-grow"> <!-- Added flex and flex-col -->
+                            <div class="mb-4 flex-grow"> <!-- Added flex-grow to content -->
+                                <p class="text-xs mb-2">August 15, 2023 / UX</p>
+                                <h4 class="font-bold mb-2">Boosting UX with Microinteractions</h4>
+                                <p>Discover the power of microinteractions in enhancing user experience and engagement.</p>
+                            </div>
+                            <a href="#" class="font-bold flex items-center">Read More 
+                                <svg class="ml-2" width="16.000000" height="16.000000" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <path id="Vector" d="M5.93 13.27L10.28 8.93C10.79 8.41 10.79 7.57 10.28 7.06L5.93 2.71" stroke="#1F1F1F" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+                                    <g opacity="0.000000"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="py-12 lg:py-24 xl:32 bg-pink relative overflow-hidden">
+        <!-- SHAPE -->
+        <div class="w-[221px] h-[221px] hidden lg:block lg:-left-48 xl:-left-36 -translate-y-1/2 absolute top-1/2 bg-red rounded-full"></div>
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col lg:flex-row lg:-mx-8">
+                <div class="lg:w-1/2 lg:px-8 flex-grow flex flex-col mb-8 lg:mb-0">
+                    <div class="flex flex-col justify-between flex-grow">
+                        <div>
+                            <div class="mb-12 lg:mb-16">
+                                <h2 class="text-4xl font-bold mb-4">Get in Touch</h2>
+                                <p>Have a question or a project in mind? I'd love to hear from you. Let's chat and make something amazing together.</p>
+                            </div>
+                            <ul class="space-y-4 lg:space-y-8 mb-8 lg:mb-0">
+                                <li>
+                                    <a href="#" class="flex items-center">
+                                        <svg class="mr-4" width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M20 11.8198H22C22 6.6898 18.127 2.8208 12.99 2.8208V4.8208C17.052 4.8208 20 7.7638 20 11.8198Z" fill="#1F1F1F"/>
+                                            <path d="M13 8.8208C15.103 8.8208 16 9.7178 16 11.8208H18C18 8.5958 16.225 6.8208 13 6.8208V8.8208ZM16.422 14.2638C16.2299 14.0891 15.9774 13.996 15.7178 14.004C15.4583 14.012 15.212 14.1206 15.031 14.3068L12.638 16.7678C12.062 16.6578 10.904 16.2968 9.71204 15.1078C8.52004 13.9148 8.15904 12.7538 8.05204 12.1818L10.511 9.7878C10.6975 9.60692 10.8062 9.36062 10.8142 9.101C10.8222 8.84139 10.7289 8.58884 10.554 8.3968L6.85904 4.3338C6.68408 4.14115 6.44092 4.0243 6.18119 4.00806C5.92146 3.99181 5.66564 4.07745 5.46804 4.2468L3.29804 6.1078C3.12515 6.28131 3.02196 6.51225 3.00804 6.7568C2.99304 7.0068 2.70704 12.9288 7.29904 17.5228C11.305 21.5278 16.323 21.8208 17.705 21.8208C17.907 21.8208 18.031 21.8148 18.064 21.8128C18.3086 21.7991 18.5394 21.6955 18.712 21.5218L20.572 19.3508C20.7415 19.1533 20.8273 18.8976 20.8113 18.6378C20.7952 18.3781 20.6785 18.1349 20.486 17.9598L16.422 14.2638Z" fill="#1F1F1F"/>
+                                        </svg>
+                                        <span>+1205 5872 321</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="flex items-center">
+                                        <svg class="mr-4" width="20.000000" height="16.000000" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <path id="Vector" d="M20 0L0 0L0 16L20 16L20 0ZM18 4L10 9L2 4L2 2L10 7L18 2L18 4Z" fill="#1F1F1F" fill-opacity="0.850000" fill-rule="nonzero"/>
+                                        </svg>
+                                        <span>contact@sarajonesdesign.com</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="flex items-center">
+                                        <svg class="mr-4" width="16.500000" height="21.000000" viewBox="0 0 16.5 21" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <path id="Vector" d="M8.25 0C6.06 0 3.96 0.87 2.41 2.41C0.87 3.96 0 6.06 0 8.25C-0.01 10.03 0.58 11.77 1.66 13.2C1.66 13.2 1.88 13.49 1.92 13.53L8.25 21L14.57 13.53C14.61 13.49 14.83 13.2 14.83 13.2L14.83 13.19C15.91 11.77 16.5 10.03 16.5 8.25C16.49 6.06 15.62 3.96 14.08 2.41C12.53 0.87 10.43 0 8.25 0ZM8.25 11.25C7.65 11.25 7.07 11.07 6.58 10.74C6.08 10.41 5.7 9.94 5.47 9.39C5.25 8.84 5.19 8.24 5.3 7.66C5.42 7.08 5.7 6.54 6.12 6.12C6.54 5.7 7.08 5.42 7.66 5.3C8.24 5.19 8.84 5.25 9.39 5.47C9.94 5.7 10.41 6.08 10.74 6.58C11.07 7.07 11.25 7.65 11.25 8.25C11.24 9.04 10.93 9.8 10.37 10.37C9.8 10.93 9.04 11.24 8.25 11.25Z" fill="#1F1F1F" fill-opacity="1.000000" fill-rule="nonzero"/>
+                                        </svg>
+                                        <span>1234 Design Street,Creativeville, Webland,Imaginary State, 98765</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="flex items-center space-x-6">
+                            <li>
+                                <a href="" class="inline-flex bg-white h-8 w-8 border border-white hover:bg-transparent hover:border-dark justify-center items-center rounded-full">
+                                    <svg width="15.000000" height="12.000000" viewBox="0 0 15 12" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <path id="Vector" d="M15 1.42C14.44 1.65 13.84 1.82 13.22 1.89C13.87 1.51 14.35 0.92 14.58 0.22C13.97 0.57 13.31 0.82 12.63 0.95C12.34 0.65 11.99 0.41 11.6 0.24C11.22 0.08 10.8 -0.01 10.38 0C8.68 0 7.31 1.35 7.31 3.02C7.31 3.26 7.34 3.49 7.38 3.72C4.83 3.59 2.56 2.39 1.04 0.55C0.77 1.01 0.62 1.54 0.63 2.08C0.63 3.13 1.17 4.05 2 4.6C1.51 4.58 1.03 4.45 0.61 4.21L0.61 4.25C0.61 5.72 1.66 6.94 3.07 7.22C2.81 7.29 2.53 7.33 2.26 7.33C2.06 7.33 1.87 7.31 1.68 7.28C2.07 8.48 3.2 9.35 4.55 9.38C3.5 10.2 2.17 10.67 0.74 10.67C0.48 10.67 0.24 10.67 0 10.64C1.36 11.5 2.97 12 4.72 12C10.37 12 13.46 7.38 13.46 3.38C13.46 3.25 13.46 3.12 13.45 2.99C14.05 2.55 14.58 2.02 15 1.42Z" fill="#1F1F1F" fill-opacity="1.000000" fill-rule="nonzero"/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="inline-flex bg-white h-8 w-8 border border-white hover:bg-transparent hover:border-dark justify-center items-center rounded-full">
+                                    <svg width="15.000000" height="15.000000" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <path id="Vector" d="M4.4 0.04C5.2 0 5.46 0 7.5 0C9.53 0 9.79 0 10.59 0.04C11.39 0.08 11.93 0.2 12.41 0.39C12.91 0.58 13.36 0.87 13.74 1.25C14.12 1.63 14.41 2.08 14.6 2.58C14.79 3.06 14.91 3.6 14.95 4.4C14.99 5.2 15 5.46 15 7.5C15 9.53 14.99 9.79 14.95 10.59C14.91 11.38 14.79 11.93 14.6 12.41C14.41 12.91 14.12 13.36 13.74 13.74C13.36 14.12 12.91 14.41 12.41 14.6C11.93 14.79 11.39 14.91 10.59 14.95C9.79 14.99 9.53 15 7.5 15C5.46 15 5.2 14.99 4.4 14.95C3.61 14.91 3.06 14.79 2.58 14.6C2.08 14.41 1.63 14.12 1.25 13.74C0.87 13.36 0.58 12.91 0.39 12.41C0.2 11.93 0.08 11.39 0.04 10.59C0 9.79 0 9.53 0 7.5C0 5.46 0 5.2 0.04 4.4C0.08 3.6 0.2 3.06 0.39 2.58C0.58 2.08 0.87 1.63 1.25 1.25C1.63 0.87 2.08 0.58 2.58 0.39C3.06 0.2 3.6 0.08 4.4 0.04L4.4 0.04ZM10.53 1.39C9.73 1.35 9.5 1.35 7.5 1.35C5.49 1.35 5.26 1.35 4.46 1.39C3.73 1.42 3.34 1.55 3.07 1.65C2.72 1.78 2.47 1.95 2.21 2.21C1.96 2.45 1.77 2.75 1.65 3.07C1.55 3.34 1.42 3.73 1.39 4.46C1.35 5.26 1.35 5.49 1.35 7.5C1.35 9.5 1.35 9.73 1.39 10.53C1.42 11.26 1.55 11.65 1.65 11.92C1.77 12.24 1.96 12.54 2.21 12.78C2.45 13.03 2.75 13.22 3.07 13.34C3.34 13.44 3.73 13.57 4.46 13.6C5.26 13.64 5.49 13.64 7.5 13.64C9.5 13.64 9.73 13.64 10.53 13.6C11.26 13.57 11.65 13.44 11.92 13.34C12.27 13.21 12.52 13.04 12.78 12.78C13.03 12.54 13.22 12.24 13.34 11.92C13.44 11.65 13.57 11.26 13.6 10.53C13.64 9.73 13.64 9.5 13.64 7.5C13.64 5.49 13.64 5.26 13.6 4.46C13.57 3.73 13.44 3.34 13.34 3.07C13.21 2.72 13.04 2.47 12.78 2.21C12.54 1.96 12.24 1.77 11.92 1.65C11.65 1.55 11.26 1.42 10.53 1.39ZM6.54 9.81C7.07 10.03 7.67 10.06 8.22 9.89C8.78 9.72 9.26 9.37 9.58 8.89C9.9 8.41 10.05 7.83 9.99 7.25C9.93 6.67 9.67 6.13 9.26 5.73C9 5.46 8.69 5.26 8.34 5.14C7.99 5.01 7.62 4.97 7.25 5.01C6.88 5.04 6.53 5.16 6.21 5.35C5.89 5.54 5.62 5.8 5.41 6.11C5.21 6.41 5.07 6.76 5.02 7.13C4.97 7.49 4.99 7.87 5.1 8.22C5.21 8.58 5.39 8.9 5.64 9.18C5.89 9.45 6.2 9.67 6.54 9.81ZM4.77 4.77C5.13 4.41 5.55 4.13 6.02 3.93C6.49 3.74 6.99 3.64 7.5 3.64C8 3.64 8.5 3.74 8.97 3.93C9.44 4.13 9.86 4.41 10.22 4.77C10.58 5.13 10.86 5.55 11.06 6.02C11.25 6.49 11.35 6.99 11.35 7.5C11.35 8 11.25 8.5 11.06 8.97C10.86 9.44 10.58 9.86 10.22 10.22C9.5 10.94 8.52 11.35 7.5 11.35C6.47 11.35 5.49 10.94 4.77 10.22C4.05 9.5 3.64 8.52 3.64 7.5C3.64 6.47 4.05 5.49 4.77 4.77ZM12.21 4.21C12.29 4.13 12.36 4.03 12.41 3.92C12.46 3.81 12.49 3.69 12.49 3.56C12.49 3.44 12.47 3.32 12.42 3.21C12.38 3.1 12.31 2.99 12.22 2.91C12.14 2.82 12.04 2.75 11.92 2.71C11.81 2.66 11.69 2.64 11.57 2.64C11.44 2.64 11.32 2.67 11.21 2.72C11.1 2.77 11 2.84 10.92 2.93C10.75 3.1 10.66 3.33 10.67 3.56C10.67 3.8 10.77 4.03 10.93 4.2C11.1 4.36 11.33 4.46 11.57 4.46C11.8 4.47 12.03 4.38 12.21 4.21Z" fill="#1F1F1F" fill-opacity="1.000000" fill-rule="evenodd"/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="inline-flex bg-white h-8 w-8 border border-white hover:bg-transparent hover:border-dark justify-center items-center rounded-full">
+                                    <svg width="15.000000" height="15.000000" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <path id="Dribbble" d="M7.5 0C3.37 0 0 3.37 0 7.5C0 11.62 3.37 15 7.5 15C11.62 15 15 11.62 15 7.5C15 3.37 11.62 0 7.5 0ZM13.68 7.12C12.06 6.87 10.62 6.87 9.25 7.06C9.12 6.68 8.93 6.37 8.75 6C10.18 5.37 11.37 4.5 12.18 3.43C13.06 4.5 13.62 5.75 13.68 7.12ZM11.25 2.62C10.5 3.62 9.43 4.37 8.12 4.93C7.5 3.75 6.81 2.62 6 1.5C6.5 1.37 7 1.31 7.5 1.31C8.93 1.31 10.25 1.81 11.25 2.62ZM4.68 2C5.5 3.06 6.25 4.18 6.87 5.37C5.37 5.81 3.56 6 1.5 6.06C1.93 4.25 3.12 2.81 4.68 2ZM1.31 7.5L1.31 7.31C3.68 7.31 5.81 7.06 7.5 6.5C7.62 6.81 7.81 7.12 7.93 7.37C5.81 8.06 4.06 9.37 2.75 11.43C1.87 10.37 1.31 9 1.31 7.5ZM3.68 12.37C4.93 10.43 6.5 9.18 8.43 8.62C9 10.12 9.43 11.68 9.68 13.31C7.62 14.06 5.37 13.68 3.68 12.37ZM10.93 12.62C10.68 11.12 10.25 9.68 9.75 8.31C10.93 8.12 12.18 8.18 13.62 8.43C13.31 10.18 12.37 11.68 10.93 12.62Z" fill="#1F1F1F" fill-opacity="1.000000" fill-rule="evenodd"/>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="" class="inline-flex bg-white h-8 w-8 border border-white hover:bg-transparent hover:border-dark justify-center items-center rounded-full">
+                                    <svg width="7.500000" height="15.000000" viewBox="0 0 7.5 15" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <path id="Facebook" d="M1.87 5L0 5L0 7.5L1.87 7.5L1.87 15L5 15L5 7.5L7.25 7.5L7.5 5L5 5L5 3.93C5 3.37 5.12 3.12 5.68 3.12L7.5 3.12L7.5 0L5.12 0C2.87 0 1.87 1 1.87 2.87L1.87 5Z" fill="#1F1F1F" fill-opacity="1.000000" fill-rule="evenodd"/>
+                                    </svg>   
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="lg:w-1/2 lg:px-8">
+                    <form action="">
+                        <div class="mb-6">
+                            <input type="text" class="w-full bg-white py-3 px-4" placeholder="First Name">
+                        </div>
+                        <div class="mb-6">
+                            <input type="email" class="w-full bg-white py-3 px-4" placeholder="Email">
+                        </div>
+                        <div class="mb-6">
+                            <input type="number" class="w-full bg-white py-3 px-4" placeholder="Phone number">
+                        </div>
+                        <div class="mb-8">
+                            <textarea name="" class="w-full bg-white py-3 px-4 h-40" placeholder="Your message" id=""></textarea>
+                        </div>
+                        <button type="submit" class="bg-dark text-white py-3 px-14 font-bold">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer class="bg-dark py-12 lg:py-20 text-white">
+        <div class="container max-w-3xl mx-auto">
+            <div class="flex flex-col lg:flex-row items-center justify-between mb-12 lg:mb-16 font-bold">
+                <ul class="flex items-center space-x-8">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">Services</a></li>
+                </ul>
+                <div>
+                    <img src="src/images/footer-logo.png" alt="logo">
+                </div>
+                <ul class="flex items-center space-x-8">
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+            </div>
+            <div class="text-center">
+                <p class="mb-8">Follow me on social media:</p>
+                <ul class="flex items-center justify-center space-x-8">
+                    <li>
+                        <a href="#">
+                            <svg width="23.332458" height="23.332520" viewBox="0 0 23.3325 23.3325" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <path id="Instagram" d="M11.66 2.13C14.77 2.13 15.16 2.13 16.42 2.23C19.63 2.33 21.09 3.88 21.19 6.99C21.29 8.26 21.29 8.55 21.29 11.66C21.29 14.77 21.29 15.16 21.19 16.33C21.09 19.44 19.54 20.99 16.42 21.09C15.16 21.19 14.87 21.19 11.66 21.19C8.55 21.19 8.16 21.19 6.99 21.09C3.79 20.99 2.33 19.44 2.23 16.33C2.13 15.06 2.13 14.77 2.13 11.66C2.13 8.55 2.13 8.16 2.23 6.99C2.33 3.88 3.88 2.33 6.99 2.23C8.16 2.13 8.55 2.13 11.66 2.13ZM11.66 0C8.45 0 8.06 0 6.9 0.09C2.62 0.29 0.29 2.62 0.09 6.9C0 8.06 0 8.45 0 11.66C0 14.87 0 15.26 0.09 16.42C0.29 20.7 2.62 23.04 6.9 23.23C8.06 23.33 8.45 23.33 11.66 23.33C14.87 23.33 15.26 23.33 16.42 23.23C20.7 23.04 23.04 20.7 23.23 16.42C23.33 15.26 23.33 14.87 23.33 11.66C23.33 8.45 23.33 8.06 23.23 6.9C23.04 2.62 20.7 0.29 16.42 0.09C15.26 0 14.87 0 11.66 0ZM11.66 5.63C8.36 5.63 5.63 8.36 5.63 11.66C5.63 14.97 8.36 17.69 11.66 17.69C14.97 17.69 17.69 14.97 17.69 11.66C17.69 8.36 14.97 5.63 11.66 5.63ZM11.66 15.55C9.52 15.55 7.77 13.8 7.77 11.66C7.77 9.52 9.52 7.77 11.66 7.77C13.8 7.77 15.55 9.52 15.55 11.66C15.55 13.8 13.8 15.55 11.66 15.55ZM17.88 4.08C17.11 4.08 16.52 4.66 16.52 5.44C16.52 6.22 17.11 6.8 17.88 6.8C18.66 6.8 19.24 6.22 19.24 5.44C19.24 4.66 18.66 4.08 17.88 4.08Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg width="23.332458" height="18.962891" viewBox="0 0 23.3325 18.9629" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <path id="Twitter" d="M7.33 18.96C16.14 18.96 20.95 11.66 20.95 5.34C20.95 5.13 20.95 4.92 20.94 4.72C21.87 4.04 22.69 3.2 23.33 2.24C22.47 2.62 21.55 2.88 20.58 2.99C21.57 2.4 22.33 1.46 22.68 0.35C21.76 0.89 20.73 1.29 19.64 1.51C18.77 0.58 17.53 0 16.15 0C13.51 0 11.36 2.14 11.36 4.78C11.36 5.16 11.4 5.52 11.49 5.87C7.51 5.67 3.98 3.77 1.62 0.87C1.21 1.58 0.97 2.4 0.97 3.28C0.97 4.94 1.82 6.4 3.1 7.26C2.32 7.24 1.58 7.02 0.93 6.66C0.93 6.68 0.93 6.7 0.93 6.72C0.93 9.04 2.58 10.98 4.77 11.42C4.37 11.53 3.95 11.59 3.51 11.59C3.2 11.59 2.9 11.56 2.61 11.5C3.22 13.4 4.99 14.79 7.08 14.82C5.44 16.11 3.38 16.87 1.14 16.87C0.75 16.87 0.37 16.85 0 16.81C2.11 18.17 4.63 18.96 7.33 18.96Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+                            </svg>  
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg width="23.332458" height="23.332520" viewBox="0 0 23.3325 23.3325" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <path id="Dribbble" d="M11.66 0C5.24 0 0 5.24 0 11.66C0 18.08 5.24 23.33 11.66 23.33C18.08 23.33 23.33 18.08 23.33 11.66C23.33 5.24 18.08 0 11.66 0ZM21.29 11.08C18.76 10.69 16.52 10.69 14.38 10.98C14.19 10.4 13.9 9.91 13.61 9.33C15.84 8.36 17.69 6.99 18.95 5.34C20.31 6.99 21.19 8.94 21.29 11.08ZM17.49 4.08C16.33 5.63 14.68 6.8 12.63 7.68C11.66 5.83 10.59 4.08 9.33 2.33C10.11 2.13 10.88 2.04 11.66 2.04C13.9 2.04 15.94 2.81 17.49 4.08ZM7.29 3.11C8.55 4.76 9.72 6.51 10.69 8.36C8.36 9.04 5.54 9.33 2.33 9.43C3.01 6.61 4.86 4.37 7.29 3.11ZM2.04 11.66L2.04 11.37C5.73 11.37 9.04 10.98 11.66 10.11C11.86 10.59 12.15 11.08 12.34 11.47C9.04 12.54 6.31 14.58 4.27 17.79C2.91 16.13 2.04 13.99 2.04 11.66ZM5.73 19.24C7.68 16.23 10.11 14.29 13.12 13.41C13.99 15.74 14.68 18.17 15.06 20.7C11.86 21.87 8.36 21.29 5.73 19.24ZM17.01 19.63C16.62 17.3 15.94 15.06 15.16 12.93C17.01 12.63 18.95 12.73 21.19 13.12C20.7 15.84 19.24 18.17 17.01 19.63Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <svg width="12.726807" height="25.453613" viewBox="0 0 12.7268 25.4536" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <path id="Facebook" d="M3.18 8.48L0 8.48L0 12.72L3.18 12.72L3.18 25.45L8.48 25.45L8.48 12.72L12.3 12.72L12.72 8.48L8.48 8.48L8.48 6.68C8.48 5.72 8.69 5.3 9.65 5.3L12.72 5.3L12.72 0L8.69 0C4.87 0 3.18 1.69 3.18 4.87L3.18 8.48Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Initialize Slick Slider -->
+    <script>
+        $(document).ready(function(){
+          $('.testimonial-slider').slick({
+            dots: false,
+            infinite: true,
+            speed: 300,
+            slidesToScroll: 1,
+            prevArrow: '<svg class="slick-arrow slick-prev" width="16" height="31" viewBox="0 0 16 31" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.15 28.8665L3.28336 17.9998C2.00002 16.7165 2.00002 14.6165 3.28336 13.3332L14.15 2.46649" stroke="#1F1F1F" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/></svg>',
+            nextArrow: '<svg class="slick-arrow slick-next" width="16" height="31" viewBox="0 0 16 31" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1.85001 28.8665L12.7167 17.9998C14 16.7165 14 14.6165 12.7167 13.3332L1.85001 2.46649" stroke="#1F1F1F" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/></svg>'
+          });
+        });
+      </script>
+</body>
+</html>
