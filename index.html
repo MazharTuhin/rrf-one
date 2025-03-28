@@ -25,7 +25,9 @@
             <div class="container mx-auto px-4 relative">
                 <div class="flex items-center justify-between z-10">
                     <div>
-                        <img src="src/images/Logo.png" alt="">
+                        <a href="#">
+                            <img src="src/images/Logo.png" alt="">
+                        </a>
                     </div>
                     <div class="flex lg:hidden">
                         <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
@@ -36,12 +38,12 @@
                         </button>
                     </div>
                     <ul class="hidden lg:flex items-center">
-                        <li class="px-4"><a href="#about" class="text-dark font-bold text-lg hover:text-dark-gray">About</a></li>
-                        <li class="px-4"><a href="#service" class="text-dark font-bold text-lg hover:text-dark-gray">Services</a></li>
-                        <li class="px-4"><a href="#portfolio" class="text-dark font-bold text-lg hover:text-dark-gray">Portfolio</a></li>
-                        <li class="px-4"><a href="#blog" class="text-dark font-bold text-lg hover:text-dark-gray">Blog</a></li>
+                        <li class="px-4"><a href="#about" class="text-dark font-bold text-lg hover:opacity-80">About</a></li>
+                        <li class="px-4"><a href="#service" class="text-dark font-bold text-lg hover:opacity-80">Services</a></li>
+                        <li class="px-4"><a href="#portfolio" class="text-dark font-bold text-lg hover:opacity-80">Portfolio</a></li>
+                        <li class="px-4"><a href="#blog" class="text-dark font-bold text-lg hover:opacity-80">Blog</a></li>
                     </ul>
-                    <a href="#" class="hidden lg:inline-block bg-dark text-white py-3 px-6 font-bold">Let's Talk</a>
+                    <a href="#" class="hidden lg:inline-block bg-dark border border-dark hover:bg-transparent hover:text-dark text-white py-3 px-6 font-bold">Let's Talk</a>
                 </div>
             </div>
         </header>
@@ -54,8 +56,8 @@
                             <h1 class="text-5xl lg:text-5xl font-bold leading-normal mb-4">Hi There, I'm <br><span class="text-red">Jonh Smith</span></h1>
                             <p class="mb-10">Welcome to my portfolio of captivating digital experiences. Explore my work and let's create something extraordinary together.</p>
                             <div class="flex space-x-5 justify-center lg:justify-start">
-                                <a href="#" class="inline-block bg-dark text-white py-3 px-14 font-bold border border-dark">Hire Me</a>
-                                <a href="#" class="inline-block bg-transparent text-dark py-3 px-14 font-bold border border-dark">Portfolio</a>
+                                <a href="#" class="inline-block bg-dark text-white py-3 px-14 font-bold border border-dark hover:bg-transparent hover:text-dark transition">Hire Me</a>
+                                <a href="#" class="inline-block bg-transparent text-dark hover:bg-dark hover:text-white transition py-3 px-14 font-bold border border-dark">Portfolio</a>
                             </div>
                         </div>
                     </div>
@@ -67,7 +69,6 @@
                 </div>
             </div>
         </div>
-
     </section>
     <!-- ABOUT SECTION -->
     <section id="about" class="bg-dark py-12 lg:pt-16 lg:pb-20 text-white text-center relative overflow-hidden">
@@ -78,7 +79,7 @@
                 <h2 class="section-title">About Me</h2>
                 <p class=" mb-8">I'm John Smith, a UI/UX designer dedicated to crafting intuitive and visually stunning digital experiences. With a passion for user-centric design, I transform ideas into functional and beautiful interfaces. Let's collaborate and shape the future of design together.</p>
             </div>
-            <div class="flex items-center justify-between">
+            <div class="flex flex-col space-y-8 md:space-y-0 md:flex-row items-center md:justify-between">
                 <div class="flex justify-center w-1/3">
                     <div>
                         <h2 class="text-6xl text-pink font-bold pb-2">502</h2>
@@ -111,33 +112,33 @@
             <div class="flex -mx-4 flex-wrap lg:flex-nowrap">
                 <div class="md:w-1/2 lg:w-1/4 px-4">
                     <div class="p-4">
-                        <div class="mb-6">
+                        <div class="mb-2 lg:mb-6">
                             <svg width="48" height="54" viewBox="0 0 48 54" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M35.2767 26.4354C36.1863 26.6459 37.1685 26.8264 38.2284 26.9851C37.1685 27.1438 36.1863 27.3243 35.2767 27.5348C32.0531 28.2808 29.6276 29.4277 27.8516 31.4172C26.0879 33.3929 25.0727 36.0803 24.4093 39.6773C24.2526 40.527 24.1143 41.4343 23.9906 42.4032C23.8666 41.4342 23.7281 40.5268 23.5712 39.6771C22.9068 36.08 21.891 33.3927 20.1269 31.4171C18.3505 29.4276 15.9248 28.2808 12.7011 27.5348C11.7915 27.3243 10.8093 27.1438 9.74938 26.9851C10.8093 26.8264 11.7915 26.6459 12.7011 26.4354C15.9248 25.6894 18.3505 24.5426 20.1269 22.5532C21.891 20.5775 22.9068 17.8902 23.5712 14.2931C23.7281 13.4434 23.8666 12.536 23.9906 11.567C24.1143 12.5359 24.2526 13.4433 24.4093 14.2929C25.0727 17.89 26.0879 20.5774 27.8516 22.5531C29.6276 24.5426 32.0531 25.6894 35.2767 26.4354Z" stroke="#FC3314" stroke-width="2"/>
                             </svg>
                         </div>
-                        <h3 class="text-lg font-bold mb-6">Design</h3>
+                        <h3 class="text-lg font-bold mb-4 lg:mb-6">Design</h3>
                         <p class="text-sm">I specialize in web development and design, creating visually appealing, user-friendly digital experiences.</p>                    
                     </div>
                 </div>
 
                 <div class="md:w-1/2 lg:w-1/4 px-4">
                     <div class="p-4">
-                        <div class="mb-6">
+                        <div class="mb-2 lg:mb-6">
                             <svg width="88" height="54" viewBox="0 0 88 54" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <circle cx="22" cy="27" r="21" stroke="#FC3314" stroke-width="2"/>
                                 <circle cx="44" cy="27" r="21" stroke="#FC3314" stroke-width="2"/>
                                 <circle cx="66" cy="27" r="21" stroke="#FC3314" stroke-width="2"/>
                             </svg>                                
                         </div>
-                        <h3 class="text-lg font-bold mb-6">Branding</h3>
+                        <h3 class="text-lg font-bold mb-4 lg:mb-6">Branding</h3>
                         <p class="text-sm">I'm a branding expert, crafting unique visual identities that tell your story and resonate with your audience.</p>                    
                     </div>
                 </div>
 
                 <div class="md:w-1/2 lg:w-1/4 px-4">
                     <div class="p-4">
-                        <div class="mb-6">
+                        <div class="mb-2 lg:mb-6">
                             <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M31.5004 11.2504H45.0004" stroke="#FC3314" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                 <path d="M31.5004 18.0004H38.2504" stroke="#FC3314" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -145,14 +146,14 @@
                                 <path d="M49.5004 49.5004L45.0004 45.0004" stroke="#FC3314" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>                                
                         </div>
-                        <h3 class="text-lg font-bold mb-6">UX Research</h3>
+                        <h3 class="text-lg font-bold mb-4 lg:mb-6">UX Research</h3>
                         <p class="text-sm">I specialize in user experience research, collaborating on web development, and ensuring user-friendly digital products.</p>                    
                     </div>
                 </div>
 
                 <div class="md:w-1/2 lg:w-1/4 px-4">
                     <div class="p-4">
-                        <div class="mb-6">
+                        <div class="mb-2 lg:mb-6">
                             <svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M25.2222 42.1111H50.1111" stroke="#FC3314" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                 <path d="M25.2222 27.8889H50.1111" stroke="#FC3314" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -162,7 +163,7 @@
                                 <path d="M9 42L11 44L17 38" stroke="#FC3314" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>                                
                         </div>
-                        <h3 class="text-lg font-bold mb-6">Usability Testing</h3>
+                        <h3 class="text-lg font-bold mb-4 lg:mb-6">Usability Testing</h3>
                         <p class="text-sm">I perform usability testing and optimize designs websites based on real-user feedback for seamless interactions.</p>                    
                     </div>
                 </div>
@@ -531,9 +532,9 @@
     </section>
 
     <!-- CONTACT SECTION -->
-    <section id="contact" class="py-12 lg:py-24 xl:32 bg-pink relative overflow-hidden">
+    <section id="contact" class="py-12 lg:py-24 xl:32 bg-pink relative overflow-hidden z-10">
         <!-- SHAPE -->
-        <div class="w-[221px] h-[221px] hidden lg:block lg:-left-48 xl:-left-36 -translate-y-1/2 absolute top-1/2 bg-red rounded-full"></div>
+        <div class="w-[221px] h-[221px] hidden lg:block lg:-left-48 xl:-left-36 -translate-y-1/2 absolute top-1/2 bg-red rounded-full -z-10"></div>
         <div class="container mx-auto px-4">
             <div class="flex flex-col lg:flex-row lg:-mx-8">
                 <div class="lg:w-1/2 lg:px-8 flex-grow flex flex-col mb-8 lg:mb-0">
